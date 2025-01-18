@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .recipe-card {
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #ffffff;
+    transition: transform 0.3s ease;
+  }
+  
+  .recipe-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card-image img {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-content .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3273dc;
+    margin-bottom: 10px;
+  }
+  
+  .card-content .subtitle {
+    font-size: 1.2rem;
+    color: #7a7a7a;
+    margin-bottom: 15px;
+  }
+  
+  .card-content .content {
+    font-size: 1rem;
+    color: #4a4a4a;
+  }
+  
+  .card-content .content ul {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-content .content p {
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .button.is-primary {
+    background-color: #3273dc;
+    color: white;
+  }
+  
+  .button.is-link {
+    background-color: #23d160;
+    color: white;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
